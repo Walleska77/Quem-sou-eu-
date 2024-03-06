@@ -4,25 +4,28 @@ body{
     padding: 0px;
 }
 header{
-    background-color: #a016e0;
-    height: 100px;
+    background-color: #0528b3;
+    height: 70px;
     display: flex;
     flex-direction: row;
-    color: #ffffff;
+    color: #e9e9f1;
+    
 }
 
 h1{
     flex:1;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
+   
 }
 
 .banner{
     height: 150px;
     display: flex;
     flex-direction: row;
-    background-color: #0af7c4;
+    background-color: #040606;
     margin: 20px;
+    color: #e9e9f1;
     
     
 }
@@ -38,10 +41,11 @@ nav{
 
 .item-menu{
     flex: 1;
-    background-color: #a016e0;
+    background-color: #0528b3;
     text-align: center;
     padding: 0px;
     font-size: 18px;
+    color: #e9e9f1;
 }
 .meio{
     display:flex ;
@@ -56,13 +60,14 @@ nav{
     flex-direction: row;
 }
 .rectangle{
-    background-color: #1be7d6;
+    background-color:#040606;
     flex: 1;
     height: 700px;
+     color: #e9e9f1;
 }
 
 .list{
-    color: #ffffff;
+    color: #e9e9f1;;
 }
 
 footer{
@@ -73,11 +78,15 @@ footer{
     gap: 10px;
 }
 .footer-column-left{
-    background-color: #a016e0;
+    background-color: #0528b3;
     flex: 1;
-    max-width: 300px;
+    max-width: 400px;
+    color: #e9e9f1;
+    height: 200px;
 }
 .footer-column-right{
-    background-color: #a016e0;
+    background-color: #0528b3 ;
     flex: 1;
+    color: #e9e9f1;
+    height: 200px;
 }
