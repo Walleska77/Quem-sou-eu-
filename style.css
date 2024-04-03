@@ -1,92 +1,47 @@
-body{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+#form-cadastro{
+    width: 50%;
+    background-color: rgb(6, 6, 6);
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+
+
 }
-header{
-    background-color: #0528b3;
-    height: 70px;
+
+.linha{
     display: flex;
     flex-direction: row;
-    color: #e9e9f1;
+    margin-bottom: 10px;
     
 }
-
-h1{
-    flex:1;
-    text-align: center;
-    font-size: 30px;
-   
-}
-
-.banner{
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    background-color: #040606;
-    margin: 20px;
-    color: #e9e9f1;
-    
-    
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    height: 60px;
-    margin: 20px;
-    gap: 10px;
-}
+.linha label{
+flex: 1;
+max-width: 120px;
+font-family: Arial, Helvetica, sans-serif;
+color: aliceblue;
 
 
-.item-menu{
-    flex: 1;
-    background-color: #0528b3;
-    text-align: center;
-    padding: 0px;
-    font-size: 18px;
-    color: #e9e9f1;
-}
-.meio{
-    display:flex ;
-    flex-direction: row;
-    margin: 20px;
-    gap: 10px;
-    font-size: 30px;
-}
-.section-column{
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-}
-.rectangle{
-    background-color:#040606;
-    flex: 1;
-    height: 700px;
-     color: #e9e9f1;
 }
 
-.list{
-    color: #e9e9f1;;
+.linha input , .linha select{
+flex: 1;
+border: 1px solid #ccc;
+border-radius: 10px;
+padding: 5px;
 }
 
-footer{
-    display:flex;
-    flex-direction: row;
-    height: 200px;
-    margin: 20px;
-    gap: 10px;
+input[type="submit"]{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
 }
-.footer-column-left{
-    background-color: #0528b3;
-    flex: 1;
-    max-width: 400px;
-    color: #e9e9f1;
-    height: 200px;
-}
-.footer-column-right{
-    background-color: #0528b3 ;
-    flex: 1;
-    color: #e9e9f1;
-    height: 200px;
+
+input[type="submit"]{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(65, 235, 13);
+    color: aliceblue;
+    border: 1px solid  rgb(130, 136, 128);
+color: black;
 }
