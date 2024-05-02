@@ -1,57 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="./css/style.css" rel="stylesheet" />
-    <script>
-        function salvar() {
-            let form = document.getElementById("form-cadastro")
-            let nome = form.nome.value
-            let espécie = form.espécie.value
-            let altura = form.altura.value
-            if (nome == "") {
-                alert("Preencha o nome da Planta ")
-                return false
-            }
-            else if (espécie.trim() == "") {
-                alert("Preencha o nome da Espécie")
-                return false
-            }
-            else if (altura.trim() == "") {
-                alert("Preencha a altura máxima")
-                return false
-            }
-            else {
-                alert("Planta cadastrada com sucesso!!")
-            }
-        }
-    </script>
+    <title>Atividade 02</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <form id="form-cadastro" onsubmit="return false">
-        <div class="linha">
-            <label>Nome da Planta </label>
-            <input type="text" name="nome" maxlength="40" autocapitalize="off" />
+    <header>
+        <h1>Walleska</h1>
+    </header>
+
+    <section class="banner">
+        <h1>Sobre mim</h1>
+    </section>
+
+    <nav>
+        <div class="item-menu"><h2>Gosto de Ler</h2></div>
+        <div class="item-menu"><h2>Gosto assistir série Coreana</h2></div>
+        <div class="item-menu"><h2>Gosto de Estudar</h2></div>
+        <div class="item-menu"><h2>Gosto de Viajar</h2></div>
+    </nav>
+
+    <section class="meio">
+        <div class="section-column">
+            <div class="rectangle">
+                <h1>Experiência profissional</h1>
+                <ul class="list">
+                    <li> Recebi o conceito de trabalho desde 6 anos de idade. Mas meu primeiro trabalho formal foi como assistente administrativo na Empresa Vivo, onde atuei como jovem aprendiz por 2 anos.</li>
+                    <li>Trabalhei como Vendedora de produtos para carro em um Posto de Gasolina (Obs: Foi minha primeira experiência com vendas e foi bem desafiador).</li>
+                    <li>Trabalhei como consultora de vendas na Empresa ( "Quem disse, Berenice?") por 4 meses e logo fui promovida para a próxima empresa que irei citar aqui abaixo.
+                    <li>Trabalhei como consultora de vendas na Empresa ( "Oboticário") por 8 meses. Realizei um grande sonho!</li>
+                    <li>Atualmente, trabalho em Home Office como consultora de vendas de uma Empresa com foco em qualificação profissional.</li>
+                
+                </ul>
+            </div>
         </div>
-        <div class="linha">
-            <label>Espécie</label>
-            <input type="espécie" name="espécie" maxlength="80" />
+        <div class="section-column">
+            <div class="rectangle">
+                <h1>Metas</h1>
+                <ul class="list">
+                    <li>Passar de Ano com êxito!</li>
+                    <li>Me tornar uma profissional excelente.</li>
+                    <li>Ter mais disciplina e ler em média 80 livros no ano.</li>
+                    <li>Ter estabilidade financeira e dar uma vida melhor para a minha família.</li>
+                    <li>Ser referência no mercado de trabalho.</li>
+                    <li>Melhorar minha persuasão.</li>
+                    <li>Melhorar minha comunicação.</li>
+                    <li>Ser mais grata pela vida e oportunidades que recebo.</li>
+                    <li>Daqui a 2 anos e meio, viajar para fora do Brasil(Israel ou Maldivas).</li>
+                    <li>Ter uma vida mais saúdavel.</li>
+                </ul>
+            </div>
         </div>
-        <div class="linha">
-            <label>Altura máxima </label>
-            <input type="altura" name="altura" maxlength="80" />
+    </section>
+
+    <footer>
+        <div class="footer-column-left">
+            <div class="rectangle2">
+                <h1>Inspiração</h1>
+            </div>
         </div>
+        <div class="footer-column-right">
+            <div class="rectangle2">
+                <h1> Sigo o raciocínio do Presidente do IBC Coaching, José Roberto Marques: "O que não te desafia, não te transforma". Essa frase me motiva.</h1>
+            </div>
+        </div>
+    </footer>
 
-        <input type="submit" name="Enviar" value="Cadastrar" onclick="salvar()" />
-
-    </form>
-
-
+</body>
 
 </html>
